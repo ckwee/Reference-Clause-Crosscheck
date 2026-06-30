@@ -466,17 +466,6 @@ This project avoids `st.dataframe` in the history view to reduce PyArrow/Numpy d
 - Clause extraction runs per reference document so source filenames are preserved.
 - Complaint statement checks run in parallel based on `MAX_WORKERS`.
 
-## Suggested GitHub Repository Setup
-
-Before publishing, consider adding:
-
-- a `.gitignore` file excluding `.venv/`, `__pycache__/`, `.pyc`, `backend/data/`, and uploaded local files
-- a licence file
-- screenshots of the Streamlit interface
-- example redacted test documents
-- a short demo GIF or screen recording
-- GitHub release notes for packaged versions
-
 ## Limitations
 
 - The model may miss clauses if source text extraction is poor.
