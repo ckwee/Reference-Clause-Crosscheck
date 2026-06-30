@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+langchain-ollama
+langchain-core
+langchain-community
+python-docx
+docx2txt
+pymupdf
